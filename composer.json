@@ -1,0 +1,12 @@
+{
+  "name": "/home/cwoodruf/public_html/328/DatingSite",
+  "authors": [
+    {
+      "name": "Collin Woodruff",
+      "email": "Cwoodruff@mail.greenriver.edu"
+    }
+  ],
+  "require": {
+    "bcosca/fatfree-core": "dev-master"
+  }
+}
