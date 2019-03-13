@@ -20,9 +20,8 @@ $f3->set('DEBUG', 3);
 
 //Define a default route
 $f3->route('GET /', function() {
-    echo '<nav><ul><li><a href="model/Database.php">Member Table</a></li></ul></nav>';
     $view = new View;
-    echo $view->render('views/home.html');
+    echo $view->render('views/Login.html');
 });
 
 

@@ -1,0 +1,112 @@
+/*!
+ * Code Black's Custom Styles
+ * Naming convention: "cb-" prefix
+ */
+
+/* Shelby's */
+/*FAQ styles*/
+.cb-background-faq{
+    background-image: url("../images/faq.jpg");
+    background-position: center center;
+    background-size: cover;
+}
+.cb-heading{
+    text-align: center;
+    color: white;
+}
+.cb-lastQuestion{
+    margin-bottom: 1em;
+}
+.cb-answer{
+    margin-top: 0.5em;
+    padding: 1em;
+    color: black;
+}
+.cb-question-container{
+    background-color: whitesmoke;
+    display: block;
+    text-align: left;
+    padding: 2em;
+    margin-bottom: 3em;
+    border-radius: 1em;
+}
+.cb-href{
+    font-weight: bold;
+    color: black;
+    text-decoration: underline;
+}
+/* Registration Styles */
+.cb-background-reg{
+    background-image: url("../images/registration.jpg");
+    background-position: center center;
+    background-size: cover;
+}
+.cb-regInfo{
+    background-color: rgba(245, 245, 245, 0.7);
+    border: 2px dashed white;
+    padding: 2.5em;
+    margin: 0.5em;
+    color: black;
+}
+.valid {
+    border-color: green;
+}
+.invalid{
+    border-color: red;
+}
+/* Admin Styles */
+.cb-background-admin{
+    background-image: url("../images/admin.jpg");
+    background-position: center center;
+    background-size: cover;
+}
+.cb-admin{
+    height: 100vh;
+    font-size: 16pt;
+}
+.cb-heading{
+    text-align: center;
+    color: whitesmoke;
+}
+/* Summary Styles */
+.cb-background-sum {
+    background-image: url("../images/summary.jpg");
+    background-position: center center;
+    background-size: cover;
+    width:100%;
+}
+.cb-flightSum{
+    background-color: rgba(245, 245, 245, 0.85);
+    border: 2px dashed white;
+    padding: 2.5em;
+    margin: 0.5em;
+    color: black;
+}
+
+/* Tony's */
+body {
+	min-width: 380px;
+}
+
+.cb-background-opacity {
+	background: rgba(0, 0, 0, 0.50);
+}
+
+.cb-header-top {
+	overflow: hidden;
+	background: rgba(0, 0, 0, 0.50);
+	height: 35vh;
+}
+
+.cb-login-top {
+	background-color: #fff;
+}
+
+/* Collin's */
+
+
+.err {
+    visibility: hidden;
+    color: darkred;
+    padding-left: 1.3em;
+}
