@@ -13,6 +13,12 @@ body {
     user-select: none;
 }
 
+label {
+    font-size: 10em;
+    font-family: 'Rock Salt', cursive;
+    text-align: center;
+}
+
 [type=radio] {
     display: none;
 }
@@ -33,6 +39,7 @@ body {
     left: 0; right: 0;
     cursor: pointer;
     transition: transform 0.4s ease;
+    border-style: inset;
 }
 
 #s1:checked ~ #slide2, #s2:checked ~ #slide3,
