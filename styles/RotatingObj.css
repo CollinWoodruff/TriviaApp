@@ -14,9 +14,10 @@ body {
 }
 
 label {
-    font-size: 10em;
+    font-size: 8.5em;
     font-family: 'Rock Salt', cursive;
     text-align: center;
+    padding-top: 1em;
 }
 
 [type=radio] {
